@@ -1,5 +1,8 @@
 # Summary
 
-- [實用插件](./plugins.md)
+- [plugins](./plugins.md)
 - [streamlit](./streamlit/streamlit.md)
-  - [基本指令](./streamlit/basic.md)
+  - [basic](./streamlit/ch00.basic.md)
+  - [library](./streamlit/ch01-00.library.md)
+    - [text](./streamlit/ch01-01.text.md)
+    - [widgets](./streamlit/ch01-02.widgets.md)
