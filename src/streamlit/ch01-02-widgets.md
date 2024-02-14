@@ -15,6 +15,4 @@ st.dataframe(df.style.highlight_max(axis=0))
 st.table(df)
 
 st.json({"data": "name"})  # st.write({"data": "name"})
-
-
 ```

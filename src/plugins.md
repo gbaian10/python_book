@@ -21,3 +21,9 @@ check_untyped_defs = true
 no_implicit_reexport = true
 disallow_untyped_defs = false  # TODO: Enable this
 ```
+
+```python
+# <https://mypy.readthedocs.io/en/latest/type_inference_and_annotations.html>
+# mypy: ignore-errors
+# type: ignore[attr-defined]
+```
