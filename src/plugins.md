@@ -26,6 +26,12 @@ poetry config --list
 poetry config virtualenvs.in-project true
 ```
 
+## isort
+
+## black
+
+## ruff
+
 ## mypy
 
 ```toml
@@ -50,3 +56,7 @@ pretty = true
 # mypy: ignore-errors
 # type: ignore[attr-defined]
 ```
+
+## pydantic
+
+## orjson
