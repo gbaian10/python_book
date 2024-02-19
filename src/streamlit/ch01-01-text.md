@@ -8,6 +8,8 @@ st.header("This is a header")
 st.subheader("This is a subheader")
 st.title("This is a title")
 st.markdown("This is a markdown")
+st.caption("This is a :blue[caption]. :rainbow[This is a rainbow]")
+st.write(":colors[blue, green, orange, red, violet, gray/grey, rainbow.]")
 
 st.code("print('Hello, world!')")
 code_str = """
