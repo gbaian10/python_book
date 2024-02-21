@@ -60,3 +60,9 @@ pretty = true
 ## pydantic
 
 ## orjson
+
+## rich
+
+## pre-commit
+
+## commitizen
