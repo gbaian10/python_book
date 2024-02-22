@@ -60,4 +60,13 @@ pretty = true
 
 ## pre-commit
 
+```bash,icon=.devicon-bash-plain
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+pre-commit install         # 啟用指定的 git hook
+pre-commit autoupdate      # 更新以下 repo 的版本
+pre-commit run --all-files #  全檔案檢查，而不是只有被提交的檔案
+```
+
 ## commitizen
