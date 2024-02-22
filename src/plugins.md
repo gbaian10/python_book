@@ -38,11 +38,6 @@ poetry config virtualenvs.in-project true
 [tool.mypy]
 exclude = ["playground"]
 strict = true
-disallow_untyped_decorators = false
-disallow_any_generics = false  # TODO: Enable this
-check_untyped_defs = true
-no_implicit_reexport = true
-disallow_untyped_defs = false  # TODO: Enable this
 
 explicit_package_bases = true
 ignore_missing_imports = true
