@@ -30,6 +30,10 @@ poetry config virtualenvs.in-project true
 
 ## black
 
+```bash,icon=.devicon-bash-plain
+black .
+```
+
 ## ruff
 
 ```bash,icon=.devicon-bash-plain
