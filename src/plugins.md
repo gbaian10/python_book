@@ -32,6 +32,10 @@ poetry config virtualenvs.in-project true
 
 ## ruff
 
+```bash,icon=.devicon-bash-plain
+ruff .
+```
+
 ## mypy
 
 ```toml
