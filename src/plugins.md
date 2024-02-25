@@ -28,6 +28,10 @@ poetry config virtualenvs.in-project true
 
 ## isort
 
+```bash,icon=.devicon-bash-plain
+isort .
+```
+
 ## black
 
 ```bash,icon=.devicon-bash-plain
