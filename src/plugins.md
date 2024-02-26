@@ -64,6 +64,10 @@ pretty = true
 # type: ignore[attr-defined]
 ```
 
+```bash,icon=.devicon-bash-plain
+mypy .
+```
+
 ## pydantic
 
 ## orjson
