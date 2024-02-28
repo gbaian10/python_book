@@ -74,6 +74,10 @@ mypy .
 
 ## rich
 
+```python,icon=.devicon-python-plain
+from rich import print
+```
+
 ## pre-commit
 
 ```bash,icon=.devicon-bash-plain
