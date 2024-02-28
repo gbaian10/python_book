@@ -74,8 +74,13 @@ mypy .
 
 ## rich
 
+<https://github.com/Textualize/rich>
+
 ```python,icon=.devicon-python-plain
 from rich import print
+from rich.console import Console
+
+console = Console()
 ```
 
 ## pre-commit
