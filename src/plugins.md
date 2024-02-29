@@ -95,3 +95,9 @@ pre-commit run --all-files #  全檔案檢查，而不是只有被提交的檔�
 ```
 
 ## commitizen
+
+```bash,icon=.devicon-bash-plain
+cz c
+cz ch
+cz bump
+```
