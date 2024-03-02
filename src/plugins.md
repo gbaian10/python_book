@@ -70,6 +70,8 @@ mypy .
 
 ## pydantic
 
+<https://docs.pydantic.dev/latest/>
+
 ## orjson
 
 ## rich
