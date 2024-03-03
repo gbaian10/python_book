@@ -74,6 +74,10 @@ mypy .
 
 ## orjson
 
+```python,icon=.devicon-python-plain
+import orjson
+```
+
 ## rich
 
 <https://github.com/Textualize/rich>
