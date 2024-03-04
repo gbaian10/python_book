@@ -41,7 +41,7 @@ black .
 ## ruff
 
 ```bash,icon=.devicon-bash-plain
-ruff .
+ruff check .
 ```
 
 ## mypy
