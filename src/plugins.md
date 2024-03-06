@@ -89,6 +89,8 @@ from rich.console import Console
 console = Console()
 ```
 
+## icecream
+
 ## pre-commit
 
 ```bash,icon=.devicon-bash-plain
