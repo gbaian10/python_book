@@ -91,6 +91,10 @@ console = Console()
 
 ## icecream
 
+```python,icon=.devicon-python-plain
+ic("你要 print 的東西")
+```
+
 ## pre-commit
 
 ```bash,icon=.devicon-bash-plain
