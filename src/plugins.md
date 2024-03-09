@@ -30,6 +30,7 @@ poetry config virtualenvs.in-project true
 
 ```bash,icon=.devicon-bash-plain
 isort .
+isort . --profile black --filter-files
 ```
 
 ## black
