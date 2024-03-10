@@ -106,6 +106,7 @@ ic("你要 print 的東西")
 pre-commit install         # 啟用指定的 git hook
 pre-commit autoupdate      # 更新以下 repo 的版本
 pre-commit run --all-files #  全檔案檢查，而不是只有被提交的檔案
+pre-commit run <hook_id> --all-files #  全檔案檢查，但只檢查特定 hook
 ```
 
 ## commitizen
