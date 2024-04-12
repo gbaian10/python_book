@@ -3,7 +3,7 @@
 ## poetry
 
 ```bash,icon=.devicon-bash-plain
-poetry init
+poetry init  # 初始化一個 pyproject.toml
 poetry env use python3
 poetry shell
 
