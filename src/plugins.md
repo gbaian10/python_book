@@ -122,6 +122,7 @@ cz bump  # 版號升級
 <https://github.com/gaogaotiantian/viztracer>
 
 ```python,icon=.devicon-python-plain
+from viztracer import VizTracer
 ```
 
 ## celery
