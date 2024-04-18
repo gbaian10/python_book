@@ -124,7 +124,7 @@ cz bump  # 版號升級
 ```python,icon=.devicon-python-plain
 from viztracer import VizTracer
 
-with VizTracer(output_file="optional.json") as tracer:
+with VizTracer() as tracer:
     # Something happens here
 ```
 
