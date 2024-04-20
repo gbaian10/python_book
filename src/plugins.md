@@ -67,7 +67,7 @@ pretty = true
 
 ```bash,icon=.devicon-bash-plain
 mypy .
-mypy . --python-version=3.11
+mypy . --python-version=3.12
 ```
 
 ## pydantic
