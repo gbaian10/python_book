@@ -132,6 +132,13 @@ tracer.save()
 
 with VizTracer() as tracer:
     # Something happens here
+
+# Jupyter
+# You need to load the extension first
+%load_ext viztracer
+
+%%viztracer
+# Your code after
 ```
 
 ## celery
