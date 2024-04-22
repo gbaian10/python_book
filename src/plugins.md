@@ -49,7 +49,7 @@ ruff check .
 
 ```toml
 [tool.mypy]
-exclude = ["playground"]
+exclude = ["playground"]  # 排除哪些資料夾不檢查
 strict = true
 
 explicit_package_bases = true
