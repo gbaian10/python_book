@@ -50,6 +50,7 @@ ruff check .
 ```toml
 [tool.mypy]
 plugins = ["pydantic.mypy"]
+python_version = "3.12"
 exclude = ["playground"]  # 排除哪些資料夾不檢查
 strict = true
 
