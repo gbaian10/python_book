@@ -53,6 +53,7 @@ plugins = ["pydantic.mypy"]
 python_version = "3.12"
 exclude = ["playground"]  # 排除哪些資料夾不檢查
 strict = true
+follow_imports = "silent"
 
 explicit_package_bases = true
 ignore_missing_imports = true
