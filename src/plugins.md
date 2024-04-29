@@ -51,6 +51,7 @@ ruff check .
 [tool.mypy]
 plugins = ["pydantic.mypy"]
 python_version = "3.12"
+# mypy_path = "stubs"
 exclude = ["playground"]  # 排除哪些資料夾不檢查
 strict = true
 follow_imports = "silent"
