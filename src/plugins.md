@@ -54,11 +54,11 @@ python_version = "3.12"
 # mypy_path = "stubs"
 allow_untyped_calls = true  # for third party library
 allow_untyped_decorators = true  # for third party library
+explicit_package_bases = true
 exclude = ["playground"]  # 排除哪些資料夾不檢查
 strict = true
 follow_imports = "silent"
 
-explicit_package_bases = true
 ignore_missing_imports = true
 no_site_packages = true
 pretty = true
