@@ -59,8 +59,8 @@ explicit_package_bases = true
 exclude = ["playground"]  # 排除哪些資料夾不檢查
 follow_imports = "silent"
 
-ignore_missing_imports = true
 no_site_packages = true
+ignore_missing_imports = true
 pretty = true
 # disable_error_code = ["attr-defined", "type-arg", "no-untyped-def"]
 ```
