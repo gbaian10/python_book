@@ -63,6 +63,10 @@ no_site_packages = true
 ignore_missing_imports = true
 pretty = true
 # disable_error_code = ["attr-defined", "type-arg", "no-untyped-def"]
+
+[[tool.mypy.overrides]]
+module = ["app.config.pydantic_config", "app.middleware.*", "app.models._settings_model"]
+allow_subclassing_any = true  # for pydantic
 ```
 
 ```python,icon=.devicon-python-plain
