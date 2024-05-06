@@ -67,6 +67,10 @@ pretty = true
 [[tool.mypy.overrides]]
 module = ["app.config.pydantic_config", "app.middleware.*", "app.models._settings_model"]
 allow_subclassing_any = true  # for pydantic
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+allow_any_generics = true
 ```
 
 ```python,icon=.devicon-python-plain
