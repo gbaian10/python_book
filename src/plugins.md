@@ -131,6 +131,13 @@ cz ch    # git commit
 cz bump  # 版號升級
 ```
 
+```toml
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_provider = "poetry"
+update_changelog_on_bump = true
+```
+
 ## viztracer
 
 <https://github.com/gaogaotiantian/viztracer>
