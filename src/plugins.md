@@ -125,6 +125,8 @@ pre-commit run <hook_id> --all-files #  全檔案檢查，但只檢查特定 hoo
 
 ## commitizen
 
+<https://commitizen-tools.github.io/commitizen/>
+
 ```bash,icon=.devicon-bash-plain
 cz c     # update changelog
 cz ch    # git commit
