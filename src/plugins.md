@@ -168,6 +168,8 @@ with VizTracer() as tracer:
 
 <https://docs.celeryq.dev/en/stable/>
 
+<https://github.com/celery/celery>
+
 ## locust
 
 <https://locust.io/>
