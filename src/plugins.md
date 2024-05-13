@@ -173,3 +173,5 @@ with VizTracer() as tracer:
 ## locust
 
 <https://locust.io/>
+
+<https://github.com/locustio/locust>
