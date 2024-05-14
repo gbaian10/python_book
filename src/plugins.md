@@ -102,6 +102,7 @@ import orjson
 from rich import print
 from rich.console import Console
 
+print()
 console = Console()
 ```
 
