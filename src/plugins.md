@@ -176,3 +176,5 @@ with VizTracer() as tracer:
 <https://locust.io/>
 
 <https://github.com/locustio/locust>
+
+## loguru
