@@ -179,4 +179,6 @@ with VizTracer() as tracer:
 
 ## loguru
 
+<https://loguru.readthedocs.io/en/stable/>
+
 <https://github.com/Delgan/loguru>
