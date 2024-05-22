@@ -90,6 +90,8 @@ mypy . --python-version=3.12
 
 ## pydantic-settings
 
+<https://docs.pydantic.dev/latest/concepts/pydantic_settings/>
+
 ## orjson
 
 ```python,icon=.devicon-python-plain
