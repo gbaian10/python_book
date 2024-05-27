@@ -195,4 +195,6 @@ with VizTracer() as tracer:
 
 ## jellyfish
 
+<https://jamesturk.github.io/jellyfish/>
+
 <https://github.com/jamesturk/jellyfish>
