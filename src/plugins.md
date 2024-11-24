@@ -54,6 +54,15 @@ uv lock --upgrade  # 升級所有 package
 uv tree
 ```
 
+```toml
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["your_package_path"]
+```
+
 ## isort
 
 ```bash,icon=.devicon-bash-plain
