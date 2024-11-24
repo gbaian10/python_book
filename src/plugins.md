@@ -26,6 +26,34 @@ poetry config --list
 poetry config virtualenvs.in-project true
 ```
 
+## uv
+
+```bash,icon=.devicon-bash-plain
+uv init
+uv python install 3.13  # https://docs.astral.sh/uv/getting-started/features/#python-versions
+uv python pin 3.13  # 將專案的 python 版本固定
+uv venv  # 建立虛擬環境
+uv run main.py  # 可以在不進入虛擬環境的情況下執行指令
+
+uv add pydantic pydantic-settings
+uv add --dev ruff  # 同 --group dev
+uv add --group test pytest
+uv remove pydantic
+uv remove --group test pytest
+
+uv sync  # 會更新 lockfile，相當於 poetry update
+uv sync --group test
+uv sync --frozen  # 不會更新 lockfile，相當於 poetry install
+uv sync --frozen --all-extras
+
+uv lock  # 創建/更新 lockfile (如果有缺套件會自動安裝，但只要他目前符合安裝條件，則不會顯式升級套件)
+uv lock --locked # 檢查 lockfile 是否是最新的
+uv lock --upgrade-package pydantic  # 升級指定 package
+uv lock --upgrade  # 升級所有 package
+
+uv tree
+```
+
 ## isort
 
 ```bash,icon=.devicon-bash-plain
