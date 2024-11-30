@@ -41,15 +41,15 @@ uv add --group test pytest
 uv remove pydantic
 uv remove --group test pytest
 
-uv sync  # 會更新 lockfile，相當於 poetry update
-uv sync --group test
+uv sync  # 如果 lockfile 不存在，會安裝最新且符合條件的套件，相當於 poetry install + poetry update
+uv sync --group test  # 額外安裝 test group 的套件
 uv sync --frozen  # 不會更新 lockfile，相當於 poetry install
 uv sync --frozen --all-extras
 
 uv lock  # 創建/更新 lockfile (如果有缺套件會自動安裝，但只要他目前符合安裝條件，則不會顯式升級套件)
 uv lock --locked # 檢查 lockfile 是否是最新的
 uv lock --upgrade-package pydantic  # 升級指定 package
-uv lock --upgrade  # 升級所有 package
+uv lock --upgrade  # 升級所有 package，相當於 poetry update
 
 uv tree
 ```
