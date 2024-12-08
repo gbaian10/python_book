@@ -63,6 +63,34 @@ build-backend = "hatchling.build"
 packages = ["your_package_path"]
 ```
 
+## pyenv
+
+```bash,icon=.devicon-bash-plain
+pyenv --version  # 查看 pyenv 版本
+pyenv versions   # 列出所有已安裝的 python 版本 (如果該資料夾下有 .python-version 檔案，會使用其指定的版本，否則使用全域設定)
+pyenv global system  # 切換全域設定到系統 python 版本
+pyenv global 3.13.1  # 切換全域設定到指定 python 版本
+pyenv local 3.12.7  # 將當前目錄切換到指定 python 版本，並寫入 .python-version 檔案內
+
+pyenv install --list  # 列出所有可安裝的 python 版本
+pyenv uninstall 3.13.0
+pyenv install 3.13.1
+```
+
+### update pyenv
+
+```bash,icon=.devicon-bash-plain
+cd ~/.pyenv
+git pull
+```
+
+## pipx
+
+```bash,icon=.devicon-bash-plain
+pipx list  # 列出目前安裝的套件
+pipx upgrade <package>  # 升級指定套件
+```
+
 ## isort
 
 ```bash,icon=.devicon-bash-plain
